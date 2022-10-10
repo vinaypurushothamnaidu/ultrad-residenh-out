@@ -67,7 +67,7 @@ path = '/kaggle/input/'
 Ots_train_loader = DataLoader(dataset = RESIDE_Dataset(path + 'residenh/RESIDENH/OTS', train = True), 
                              batch_size = BS, shuffle = True)
 
-Ots_test_loader = DataLoader(dataset = RESIDE_Dataset(path + 'resideh/RESIDENH/RESIDENH-VAL/outdoor', train = False), 
+Ots_test_loader = DataLoader(dataset = RESIDE_Dataset(path + 'residenh/RESIDENH/RESIDENH-VAL/outdoor', train = False), 
                              batch_size = 1, shuffle = False)
 
 
